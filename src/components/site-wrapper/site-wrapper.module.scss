@@ -1,0 +1,12 @@
+@import '@styles/theme.module.scss';
+
+.root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content {
+    flex-grow: 1;
+}

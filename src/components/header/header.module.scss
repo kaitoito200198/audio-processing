@@ -1,0 +1,28 @@
+@import '@styles/theme.module.scss';
+
+.root {
+    display: flex;
+    flex-direction: row;
+    padding-left: 3em;
+    justify-content: space-between;
+    padding-right: 3.5em;
+    align-items: center;
+    height: 4em;
+    font: $button-font;
+
+    @media only screen and (max-width: $mobile-width) {
+        padding: 0 3em
+    }
+}
+
+.menu {
+    display: flex;
+    column-gap: 2rem;
+    font: $button-font;
+}
+
+.active {
+    color: $black;
+    font-weight: 600;
+    box-shadow: 3.63px 1.69px 48px black;
+}

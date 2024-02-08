@@ -1,0 +1,40 @@
+@import '@styles/theme.module.scss';
+
+.root {
+    font: $large-font;
+    display: flex;
+    flex-direction: row;
+    background-color: $snow-white;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    justify-content: center;
+    padding-right: 7em;
+    padding-left: 7em;
+    column-gap: 5em;
+}
+
+.title {
+    font: $title-font;
+    letter-spacing: 0.4rem;
+}
+
+
+.paragraph {
+    margin-bottom: 1.5em;
+    font: $paragraph-font;
+}
+
+.text {
+    text-align: start;
+    width: 50vw;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+
+
+.image {
+    align-self: center;
+    width: 20vw;
+}
